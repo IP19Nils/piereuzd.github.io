@@ -53,9 +53,21 @@ html {
     gap: 10px;
 }
 
-.m-l-r-60 {
-    margin-left: 60px;
-    margin-right: 60px;
+.gap35 {
+gap: 35px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.ml-35 {
+    margin-left: 35px;
+}
+
+.margin-r-l {
+    margin-right: 30px;
+    margin-left: 10px;
 }
 
 .w-25 {
@@ -63,13 +75,18 @@ html {
     width: 25%;
 }
 
+.w-20 {
+    height: 100%;
+    width: 22.3%;
+}
+
 .w-75 {
     height: 100%;
     width: 75%;
 }
 
-.w50 {
-    flex: 50%;
+.w39 {
+    width: 39%;
     height: 100%;
 }
 
@@ -147,8 +164,11 @@ html {
 }
 
 header {
-    flex: 100%;
+    width: 1366px;
     min-height: 93px;
+    max-height: 93px;
+    position: fixed;
+    top: 0;
 }
 
 .header-location {
@@ -157,6 +177,7 @@ header {
     min-height: 93px;
     position: fixed;
     z-index: 100;
+    font-size: 23px;
 }
 
 .header-links {
@@ -178,8 +199,8 @@ header {
     background: url(../img/SparkleVideo.png);
     background-size: cover;
     background-position: center;
-    min-height: 110vh;
-    flex: 100%;
+    min-height: 82.3vh;
+    width: 1366px;
 }
 
 .circle {
@@ -202,23 +223,24 @@ header {
 }
 
 .sparkl-box {
-    width: 100%;
-    height: 500px;
+    width: 1366px;
+    height: 411px;
 }
 
 .sparkl-text {
     width: 654px;
     height: 114px;
+    font-size: 20px;
 }
 
 .gallery {
-    width: 100%;
-    min-height: 600px;
+    width: 1366px;
+    min-height: 383px;
 }
 
 .img {
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 383px;
+    max-height: 383px;
     flex: 25%;
 }
 
@@ -228,8 +250,9 @@ header {
 }
 
 .vector-yellow {
-    width: 100%;
+    width: 1366px;
     margin: 0;
+    position: absolute;
 }
 
 .vector-gray {
@@ -238,25 +261,25 @@ header {
 }
 
 .vector-start {
-    width: 100%;
-    margin-top: 93px;
+    width: 1366px;
+    margin-top: 158px;
     position: fixed;
 }
 
 .vector-up {
     position: absolute;
-    width: 100%;
+    width: 1366px;
 }
 
 .vector-down {
-    width: 100%;
+    width: 1366px;
     position: relative;
-    margin-top: -61px;
+    margin-top: -55px;
 }
 
 .dream {
-    width: 100%;
-    margin-top: 200px;
+    width: 1366px;
+    margin-top: 174px;
 }
 
 .question {
@@ -269,51 +292,53 @@ header {
     background: #FFA800;
     border: none;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 46px;
 }
 
 .contact-info {
-    width: 100%;
-    height: 1000px;
-    margin-top: 400px;
+    width: 1366px;
+    height: 610px;
+    margin-top: 245px;
+    margin-bottom: 105px;
+
 }
 
 .contact-with-us {
     font-size: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 58px;
 }
 
 .short-input {
     width: 296px;
-    height: 43px;
+    min-height: 43px;
     background: rgba(196, 196, 196, 0.4);
     border-radius: 6px;
     border: 0;
-    padding-left: 10px;
+    padding-left: 13px;
     margin: 5px;
     outline: none;
 }
 
 .medium-input {
     width: 612px;
-    height: 43px;
+    min-height: 43px;
     background: rgba(196, 196, 196, 0.4);
     border-radius: 6px;
     border: 0;
-    padding-left: 10px;
-    margin: 5px;
+    padding-left: 13px;
+    margin-top: 10px;
     outline: none;
 }
 
 .large-input {
     width: 612px;
-    height: 232px;
+    min-height: 232px;
     background: rgba(196, 196, 196, 0.4);
     border-radius: 6px;
     border: 0;
-    margin: 5px;
-    padding: 10px;
-    padding-top: 5px;
+    margin-top: 16px;
+    padding: 15px;
+    padding-top: 10px;
     outline: none;
     text-decoration: none;
 }
@@ -321,14 +346,16 @@ header {
 .required {
     font-weight: 400;
     width: 612px;
+    margin-top: 18px;
 }
 
 .private-policy {
     font-weight: 400;
-    min-width: 204px;
+    min-width: 612px;
     max-width: 612px;
     height: 39px;
-    margin-top: 40px;
+    margin-top: 33px;
+    margin-left: 10px;
     display: flex;
     gap: 20px;
 }
@@ -365,7 +392,7 @@ header {
 
 .send-btn {
     font-size: 24px;
-    margin-top: 100px;
+    margin-top: 145px;
     width: 182px;
     height: 62px;
     border: none;
@@ -374,45 +401,68 @@ header {
 }
 
 .yellow-container {
-    width: 100%;
-    min-height: 533px;
+    width: 1366px;
+    min-height: 507px;
+    max-height: 507px;
 }
 
 .box-name {
     flex: 100%;
-    min-height: 150px;
+    min-height: 140px;
     font-size: 24px;
+    align-items: flex-end;
 }
 
 .box-logo {
     flex: 100%;
-    min-height: 302px;
-    gap: 120px;
+    min-height: 312px;
+    gap: 85px;
+    padding-bottom: 60px;
 }
 
 footer {
-    width: 100%;
+    width: 1366px;
     min-height: 324px;
 }
 
 .gray-container {
-    width: 100%;
+    width: 1366px;
     min-height: 324px;
 }
 
 .mini-info-box {
-    flex: 25%;
+    width: 22%;
     min-height: 324px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mini-info-box-links {
+    width: 23%;
+    min-height: 324px;
+    padding-left: 80px;
+}
+
+.mini-info-box-bank {
+    width: 27%;
+    min-height: 324px;
+}
+
+.mini-info-box-contact {
+    width: 28%;
+    min-height: 324px;
+    padding-left: 40px;
 }
 
 .copyright {
     height: 38px;
     width: 150px;
-    margin-top: 70px;
+    margin-top: 73px;
+    margin-bottom: 10px;
 }
 
 .links {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     text-decoration: none;
 }
 
@@ -425,8 +475,8 @@ footer {
 }
 
 .first-link {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     text-decoration: none;
 }
 
@@ -439,30 +489,35 @@ footer {
 }
 
 .sparklHeart {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-size: 24px;
 }
 
 .contact-box {
     align-items: flex-end;
-    padding-right: 50px;
+    padding-right: 62px;
 }
 
 .contact-name {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 18px;
     font-size: 24px;
+}
+
+.contact-data {
+    margin-bottom: 12px;
 }
 
 .social-row {
     gap: 20px;
-    margin-top: 45px;
-    margin-bottom: 35px;
+    margin-top: 38px;
+    margin-bottom: 40px;
 }
 
 .policy {
     text-align: right;
+    font-size: 16px;
 }
 
 .fa-facebook-f,
@@ -480,7 +535,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1590px) {
+/* @media only screen and (max-width: 1590px) {
     .m-l-r-60 {
         margin-left: 50px;
         margin-right: 50px;
@@ -506,7 +561,7 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
+} */
 
 @media only screen and (max-width: 526px) {
     .row-to-col {

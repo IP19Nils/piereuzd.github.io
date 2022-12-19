@@ -527,7 +527,7 @@ header {
 
 .burger-conatainer {
     min-width: 320px;
-    height: 70px;
+    height: 95px;
   }
 
 .topnav {
@@ -586,7 +586,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 1366px) {
+/* @media only screen and (max-width: 1366px) {
 
     .header,
     .header-location,
@@ -594,7 +594,7 @@ header {
         gap: 15px;
         font-size: 18px;
     }
-}
+} */
 
 @media only screen and (max-width: 1366px) {
 
@@ -630,7 +630,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
 
     header,
     .header-location,
@@ -640,7 +640,7 @@ header {
         min-height: 70px;
         max-height: 70px;
     }
-}
+} */
 
 @media only screen and (max-width: 1000px) {
 
@@ -721,7 +721,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1366px) {
 
     header,
     .header-location,
@@ -731,7 +731,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1366px) {
 
     .topnav {
         display: block;

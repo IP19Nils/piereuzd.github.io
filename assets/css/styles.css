@@ -776,6 +776,27 @@ header {
     }
 }
 
+@media only screen and (max-width: 1366px) {
+
+    .burger-conatainer {
+        min-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .burger-conatainer {
+        min-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .burger-conatainer {
+        min-width: 320px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
 
     .burger-conatainer {

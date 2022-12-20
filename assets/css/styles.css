@@ -253,7 +253,7 @@ header {
 .vector-yellow {
     width: 1366px;
     margin: 0;
-    position: absolute;
+    position: static;
 }
 
 .vector-gray {
@@ -270,6 +270,7 @@ header {
 .vector-up {
     position: absolute;
     width: 1366px;
+    top: auto;
 }
 
 .vector-down {

@@ -258,7 +258,8 @@ header {
 .vector-yellow {
     width: 1366px;
     margin: 0;
-    position: static;
+    position: absolute;
+    top: auto;
 }
 
 .vector-gray {

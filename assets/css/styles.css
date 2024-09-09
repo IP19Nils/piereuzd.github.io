@@ -591,6 +591,7 @@ header {
     .yellow-container,
     .gray-container {
         width: 1000px;
+        height: auto;
     }
 }
 
@@ -625,6 +626,7 @@ header {
     .yellow-container,
     .gray-container {
         width: 700px;
+        height: auto;
     }
 }
 
@@ -677,6 +679,7 @@ header {
     .yellow-container,
     .gray-container {
         width: 320px;
+        height: auto;
     }
 }
 
@@ -751,6 +754,7 @@ header {
     .yellow-container,
     .gray-container {
         width: 250px;
+        height: auto;
     }
 }
 
